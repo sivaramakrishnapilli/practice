@@ -1,0 +1,57 @@
+.color-picker-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    min-width: 600px;
+}
+.color-picker-heading{
+    color: #222222;
+    font-size: 50px;
+}
+.color-picker-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.color-picker-button1{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    margin: 20px;
+}
+.color-picker-button2{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #6fcf97;
+    margin: 20px;
+
+}
+.color-picker-button3{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #56ccf2;
+    margin: 20px;
+
+}
+.color-picker-button4{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #bb6bd9;
+    margin: 20px;
+
+}
+
+.color-box{
+    background-color: #222222;
+    color: #e0e0e0;
+    font-size: 30px;
+    height: 50px;
+    width: 70%;
+    padding: 30px;
+}
