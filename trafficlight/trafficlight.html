@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="trafficlight.css"/>
+    </head>
+    <body>
+        <div class="main-card">
+            <h1 class="heading">Traffic Light</h1>
+            <div class="traffic-light-card">
+                <div class="button-card">
+                    <button id="stopBtn" class="button" onclick="onStopLight()">Stop</button>
+                    <button id="readyBtn" class="button" onclick="onReadyLight()">Ready</button>
+                    <button id="goBtn" class="button" onclick="onGoLight()">GO</button>
+                </div>
+                <div class="light-card">
+                    <div id="stopLight" class="light"></div>
+                    <div id="readyLight" class="light"></div>
+                    <div id="goLight" class="light"></div>
+                </div>
+            </div>
+            <script src="trafficlight.js"></script>
+        </div>
+    </body>
+</html>
